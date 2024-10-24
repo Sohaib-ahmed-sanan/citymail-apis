@@ -1,0 +1,15 @@
+{
+    "type": "object",
+    "properties": {
+        "name": "string",
+        "address": "string",
+        "country_id": "string",
+        "city_id": "string"
+    },
+    "required": [
+        "name",
+        "address",
+        "country_id",
+        "city_id"
+    ]
+}

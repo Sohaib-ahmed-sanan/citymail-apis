@@ -1,0 +1,6 @@
+{
+    
+    "require": {
+        "justinrainbow/json-schema": "*"
+    }
+}

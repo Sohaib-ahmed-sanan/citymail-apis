@@ -1,0 +1,15 @@
+{
+    "type": "object",
+    "properties": {
+        "company_id": {
+            "type": "integer"
+        },
+        "sheet_no": {
+            "type": "integer"
+        }
+    },
+    "required": [
+        "company_id",
+        "sheet_no"
+    ]
+}

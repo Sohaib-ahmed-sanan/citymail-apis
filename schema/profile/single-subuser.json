@@ -1,0 +1,9 @@
+{
+    "type": "object",
+    "properties": {
+        "employee_id": "string"
+    },
+    "required": [
+        "employee_id"
+    ]
+}

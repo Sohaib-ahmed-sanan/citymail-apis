@@ -1,0 +1,17 @@
+RewriteEngine On
+# directory browsing
+Options +FollowSymlinks
+# # ensure http
+RewriteCond %{HTTP:X-Forwarded-Proto} !http
+RewriteCond %{HTTP} off
+RewriteRule ^ http://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+
+RewriteRule ^(.*)$ $1.php
+
+
+RewriteRule ^countries?$       						common/getCountries.php [NC,L]
+RewriteRule ^cities?$       						common/getCities.php [NC,L]
+RewriteRule ^services?$       						common/customer-services.php [NC,L]

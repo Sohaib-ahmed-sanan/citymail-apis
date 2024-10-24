@@ -1,0 +1,13 @@
+{
+    "type": "object",
+    "properties": {
+        "company_id" : "string",
+        "created_by" : "string",
+        "data" : "array"
+    },
+    "required": [
+        "company_id",
+        "created_by",
+        "data"
+    ]
+}

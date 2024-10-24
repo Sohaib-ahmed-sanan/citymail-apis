@@ -1,0 +1,11 @@
+{
+    "type": "object",
+    "properties": {
+        "cn_number" : "string",
+        "company_id" : "string"
+    },
+    "required": [
+        "cn_number",    
+        "company_id"    
+    ]
+}

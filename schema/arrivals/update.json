@@ -1,0 +1,13 @@
+{
+    "type": "object",
+    "properties": {
+        "updated_by" : "string",
+        "company_id" : "string",
+        "data" : "array"
+    },
+    "required": [
+        "updated_by",    
+        "company_id",
+        "data"
+    ]
+}

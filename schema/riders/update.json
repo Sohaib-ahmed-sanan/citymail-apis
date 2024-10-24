@@ -1,0 +1,23 @@
+{
+    "type": "object",
+    "properties": {
+        "email" : {
+            "first_name" : "string",
+            "last_name" : "string",
+            "email" : "email",
+            "phone" : "string",
+            "address" : "string",
+            "station_id" : "string",
+            "city_id" : "string"
+        }
+    },
+    "required": [
+        "first_name",
+        "last_name",
+        "station_id",
+        "email",
+        "phone",
+        "address",
+        "city_id"
+    ]
+}

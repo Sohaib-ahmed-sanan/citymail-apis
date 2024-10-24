@@ -1,0 +1,15 @@
+{
+    "type": "object",
+    "properties": {
+        "email" : {
+            "id" : "string",
+            "table" : "string",
+            "status" : "string"
+        }
+    },
+    "required": [
+        "id",
+        "table",
+        "status"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "type": "object",
+    "properties": {
+        "company_id" : "string",
+        "arrival_no" : "string"
+    },
+    "required": [   
+        "company_id",    
+        "arrival_no"    
+    ]
+}

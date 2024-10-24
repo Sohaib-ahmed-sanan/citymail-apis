@@ -1,0 +1,13 @@
+{
+    "type": "object",
+    "properties": {
+        "city_id": "string",
+        "country_id": "string",
+        "address": "string"
+    },
+    "required": [
+        "address",
+        "country_id",
+        "city_id"
+    ]
+}

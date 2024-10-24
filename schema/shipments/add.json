@@ -1,0 +1,112 @@
+{
+    "type": "object",
+    "properties": {
+      "company_id": {
+        "type": "integer"
+      },
+      "customer_acno": {
+        "type": "string"
+      },
+      "device": {
+        "type": "string"
+      },
+      "flag": {
+        "type": "string"
+      },
+      "shipments": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "email": {
+              "type": "string",
+              "format": "email"
+            },
+            "phone": {
+              "type": "integer"
+            },
+            "address": {
+              "type": "string"
+            },
+            "destination_city": {
+              "type": "string"
+            },
+            "shipment_ref": {
+              "type": "string"
+            },
+            "product_detail": {
+              "type": "string"
+            },
+            "order_amount": {
+              "type": "double"
+            },
+            "peices": {
+              "type": "integer"
+            },
+            "weight": {
+              "type": "double"
+            },
+            "comment": {
+              "type": "string"
+            },
+            "fragile": {
+              "type": "string"
+            },
+            "insurance": {
+              "type": "string"
+            },
+            "payment_method_id": {
+              "type": "integer"
+            },
+            "pickup_location": {
+              "type": "integer"
+            },
+            "service": {
+              "type": "string"
+            },
+            "currency_code": {
+              "type": "string"
+            },
+            "destination_country": {
+              "type": "integer"
+            },
+            "service_id": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "name",
+            "email",
+            "phone",
+            "address",
+            "destination_city",
+            "shipment_ref",
+            "product_detail",
+            "order_amount",
+            "peices",
+            "weight",
+            "comment",
+            "fragile",
+            "insurance",
+            "payment_method_id",
+            "pickup_location",
+            "service",
+            "currency_code",
+            "destination_country",
+            "service_id"
+          ]
+        }
+      }
+    },
+    "required": [
+      "company_id",
+      "customer_acno",
+      "device",
+      "flag",
+      "shipments"
+    ]
+  }
+  

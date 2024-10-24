@@ -1,0 +1,17 @@
+{
+    "type": "object",
+    "properties": {
+        "company_id" : "string",
+        "station_id" : "string",
+        "seal_no" : "string",
+        "created_by" : "string",
+        "data" : "array"
+    },
+    "required": [    
+        "company_id",
+        "station_id",
+        "seal_no",
+        "created_by",
+        "data"
+    ]
+}

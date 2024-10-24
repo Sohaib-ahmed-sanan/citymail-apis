@@ -1,0 +1,9 @@
+{
+    "type": "object",
+    "properties": {
+        "customer_acno" : "customer_acno",
+        "status" : "status"
+    },
+    "required": [
+    ]
+}

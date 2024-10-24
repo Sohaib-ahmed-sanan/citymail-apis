@@ -1,0 +1,27 @@
+{
+    "type": "object",
+    "properties": {
+        "name" : "string",
+        "phone" : "string",
+        "address" : "string",
+        "cnic" : "string",
+        "ntn" : "string",
+        "other_name" : "string",
+        "other_phone" : "string",
+        "bank" : "string",
+        "account_title" : "string",
+        "account_number" : "string"
+    },
+    "required": [
+        "name",
+        "phone",
+        "address",
+        "cnic",
+        "ntn",
+        "other_name",
+        "other_phone",
+        "bank",
+        "account_title",
+        "account_number"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "object",
+    "properties": {
+        "company_id": "string",
+        "customer_acno": "string",
+        "name": "string",
+        "user_name": "string",
+        "email": "email",
+        "phone": "string",
+        "address": "string"
+    },
+    "required": [
+        "company_id",
+        "customer_acno",
+        "name",
+        "user_name",
+        "email",
+        "phone",
+        "address"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "type": "object",
+    "properties": {
+        "company_id": {
+            "type": "integer"
+        },
+        "courier_id": {
+            "type": "string"
+        },
+        "account_title": {
+            "type": "string"
+        },
+        "account_no": {
+            "type": "string"
+        },
+        "user": {
+            "type": "string"
+        }
+        
+    },
+    "required": [
+        "company_id",
+        "courier_id",
+        "account_title",
+        "account_no",
+        "user"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "type": "object",
+    "properties": {
+        "manifist_id" : "string"
+    },
+    "required": [    
+        "manifist_id"
+    ]
+}

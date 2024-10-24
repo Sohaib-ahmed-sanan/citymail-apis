@@ -1,0 +1,11 @@
+{
+    "type": "object",
+    "properties": {
+        "company_id": {
+            "type": "integer"
+        }
+    },
+    "required": [
+        "company_id"
+    ]
+}

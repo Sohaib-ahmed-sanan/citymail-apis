@@ -1,0 +1,56 @@
+{
+    "type": "object",
+    "properties": {
+        "company_id": {
+            "type": "integer"
+        },
+        "customer_acno": {
+            "type": "integer"
+        },
+        "rule_title": {
+            "type": "string"
+        },
+        "status_ids": {
+            "type": "integer"
+        },
+        "weight_type": {
+            "type": "string"
+        },
+        "weight_value": {
+            "type": "integer"
+        },
+        "payment_method_id": {
+            "type": "string"
+        },
+        "destination_city_id": {
+            "type": "integer"
+        },
+        "order_type": {
+            "type": "string"
+        },
+        "order_value": {
+            "type": "string"
+        },
+        "courier_id": {
+            "type": "integer"
+        },
+        "customer_courier_id": {
+            "type": "integer"
+        },
+        "pickup_id": {
+            "type": "integer"
+        },
+        "service_code": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "company_id",
+        "customer_acno",
+        "rule_title",
+        "status_ids",
+        "courier_id",
+        "customer_courier_id",
+        "service_code"
+    ]
+}

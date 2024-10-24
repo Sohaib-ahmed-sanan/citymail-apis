@@ -1,0 +1,14 @@
+{
+    "type": "object",
+    "properties": {
+        "consignment_no": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        }
+    },
+    "required": [
+        "consignment_no"
+    ]
+}

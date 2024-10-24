@@ -1,0 +1,19 @@
+{
+    "type": "object",
+    "properties": {
+        "company_id": {
+            "type": "integer"
+        },
+        "rider_id": {
+            "type": "string"
+        },
+        "route_id": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "company_id",
+        "rider_id",
+        "route_id"
+    ]
+}

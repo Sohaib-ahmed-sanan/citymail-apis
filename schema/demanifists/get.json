@@ -1,0 +1,9 @@
+{
+    "type": "object",
+    "properties": {
+        "seal_no" : "string",
+        "company_id" : "string"
+    },
+    "required": [  
+    ]
+}

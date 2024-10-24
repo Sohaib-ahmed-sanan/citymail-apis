@@ -1,0 +1,10 @@
+{
+    "type": "object",
+    "properties": {
+        "customer_acno" : {
+            "type" : "string",
+            "format" : "string"
+        }
+    },
+    "required": ["customer_acno"]
+}

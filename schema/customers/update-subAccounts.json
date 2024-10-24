@@ -1,0 +1,17 @@
+{
+    "type": "object",
+    "properties": {
+        "acno" : "string",
+        "user_name" : "string",
+        "phone" : "string",
+        "address" : "string",
+        "email" : "email"
+    },
+    "required": [
+        "acno",
+        "name",
+        "phone",
+        "address",
+        "email"
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "type": "object",
+    "properties": {
+        "consignment_no": "string"
+    },
+    "required": ["cn_numbers"]
+}
